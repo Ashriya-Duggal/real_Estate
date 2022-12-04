@@ -225,12 +225,16 @@ li{
                          "third"
                           "second";
 }
+  .more{
+    width: 100px;
+  }
 .third-a{
   width: 100%;
 }
 .footer{
   display: grid;
-  grid-template-areas: "a b c d"
-  " d e a b ";
+  grid-template-areas: "a b"
+  " c d "
+    "e d" ;
 }
 }
